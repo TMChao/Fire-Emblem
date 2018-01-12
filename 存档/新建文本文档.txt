@@ -1,0 +1,15 @@
+erk = person.person('艾瑞珂','剑士',0, backpack = [person.thing('圣药', '药', 1, 100), \
+                                              person.thing('必杀刃', '剑', 20, 7, 100)])
+map1.set_person(erk,1,1)
+asl = person.person('阿斯雷','司祭',0, backpack = [person.thing('治疗之杖', '杖', 1, 5), \
+                                              person.thing('闪光', '光', 20, 5, 110)])
+map1.set_person(asl,1,5)
+lte = person.person('露忒','贤者',0, backpack = [person.thing('火球术', '理', 20, 6, 90)])
+map1.set_person(lte,1,3)
+lte = person.person('赛思','圣骑士',0, backpack = [person.thing('铁剑', '剑', 1, 5, 100),\
+                                              person.thing('铁之大剑', '剑', 20, 8, 85)])
+map1.set_person(lte,1,4)
+aml =person.person('艾米莉亚','将军',1, backpack = [person.thing('铁枪', '枪', 20, 6, 90)])
+map1.set_person(aml,6,5)
+flc =person.person('弗朗茨','重骑士',1, backpack = [person.thing('圣药', '药', 1, 100), person.thing('铁斧', '斧', 20, 7, 80)])
+map1.set_person(flc,5,6)
